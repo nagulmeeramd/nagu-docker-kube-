@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
     - name: sample-hello-world
-      image: nagulmeeramd/nodejsapp-1:latest
+      image: nagulmeeramd/nodejsapp-1.0:latest
       imagePullPolicy: Always
       command: ["echo", "SUCCESS"]
